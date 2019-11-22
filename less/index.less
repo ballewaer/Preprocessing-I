@@ -54,20 +54,87 @@ table {
     box-sizing: border-box;
 }
 
-*body {
-	font-family: 'Tangerine';
+//  @font-face {
+//  	font-family: 'Tangerine';
+// 	src: url("https://fonts.googleapis.com/css?family=Tangerine&display=swap")
+// }
+
+// BACKGROUND
+
+#bg {
+	background-image: url("images/castle_hogwarts.jpg");
+	background-position: center;
+	background-size: 100%;
 }
 
- @font-face {
- 	font-family: 'Tangerine';
-	src: url("https://fonts.googleapis.com/css?family=Tangerine&display=swap")
-}
-
-html, body {
+body {
 	font-family: Tangerine;
 	font-size: 25px;
 	height: 100%;
 	padding: 5%;
-	// background-color: red;
+	// background: red;
+	// background-image: url("/images/castle_hogwarts.jpg") blue;
+	// background-size: cover;
+	// background-repeat: no-repeat;
+	// background-position: center;
 }
 
+// Navagation
+
+header {
+	nav {
+		a {
+			margin: 0 10px;
+			border: 1 px solid lightgray;
+			padding: 20px;
+			display: inline-block;
+			border-radius: 20px;
+			color: white;
+			text-decoration: none;
+			margin-bottom: 20px;
+			background: red;
+		}
+	} 
+}
+
+// #header nav {
+// 
+// 	display: flex;
+// 	margin-bottom: 0;
+// 	list-style: none;
+// 	padding-left: 0;
+// 	border: solid 1px #ffffff;
+// 	border-radius: 4px;
+// }
+
+// 	#header nav {
+// 		padding-left: 0;
+// 		border-left: solid 1px #ffffff;
+// 	}
+
+// 		#header nav :first-child {
+// 			border-left: 0;
+// 		}
+
+// 		#header nav a {
+// 			display: block;
+// 			min-width: 7.5rem;
+// 			height: 2.75rem;
+// 			line-height: 2.75rem;
+// 			padding: 0 1.25rem 0 1.45rem;
+// 			text-transform: uppercase;
+// 			letter-spacing: 0.2rem;
+// 			font-size: 0.8rem;
+// 			border-bottom: 0;
+// 		}
+
+// 			#header nav.use-middle:after {
+// 				content: '';
+// 				display: block;
+// 				position: absolute;
+// 				top: 0;
+// 				left: calc(50% - 1px);
+// 				width: 1px;
+// 				height: 100%;
+// 				background: #ffffff;
+// 			}
