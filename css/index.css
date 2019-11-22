@@ -137,16 +137,18 @@ table {
 * {
   box-sizing: border-box;
 }
-#bg {
-  background-image: url("images/castle_hogwarts.jpg");
-  background-position: center;
-  background-size: 100%;
-}
 body {
   font-family: Tangerine;
   font-size: 25px;
   height: 100%;
   padding: 5%;
+  background-image: url("../images/castle_hogwarts.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.bg-full {
+  background-color: rgba(231, 212, 209, 0.5);
 }
 header nav a {
   margin: 0 10px;
